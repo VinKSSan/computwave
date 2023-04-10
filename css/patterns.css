@@ -1,0 +1,64 @@
+h1, h2, h3 {
+    font-family:'sora', sans-serif ;
+    line-height: 125%;
+    font-weight: 600; 
+    letter-spacing: -1px;
+    color: var(--white-cinze);
+
+}
+
+h1 { 
+    
+    font-size: 4.8rem;
+    font-weight: 600; 
+    letter-spacing: -1px;
+    color: var(--cyber-pink);
+}
+
+h2 {
+    
+    font-size: 3.2rem;
+    
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    color: var(--green-white-cyber);
+}
+
+.bt-1 {
+    font-family: 'sora' , sans-serif;
+    display: flex;
+    padding: 2rem;
+    color: var(--blue-white);
+    background-color: var(--cyber-pink);
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: -0.01em;
+    height: 4rem;
+    width: 30rem ; 
+    transform-origin: center ;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+
+}
+
+
+.m-i:hover { 
+    border: var(--cyber-pink) solid 1px;
+}  
+
+.m-i {
+    display: inline-block;
+    background-color: var(--white-cinze);
+    padding: 1rem 2.4rem;
+}
+
+/*este codigo fo escrito por WinKSSan*/
+
