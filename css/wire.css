@@ -1,0 +1,375 @@
+/* stylle heade*/
+header {
+    display: flex;
+    background-color: var(--black-white);
+    width: 100%;
+    height: 8.8rem;
+    border: var(--blue-white) solid 2px ;
+    border-bottom:var(--green-white-cyber) solid 1.5px;
+    
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    
+}
+
+.cabeçalho nav {
+    display: flex;
+    align-items: center ;
+}
+
+.cabeçalho ul {
+    display: flex;
+}
+
+.bt-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: right ;
+    padding: 5px;
+    margin-left:2.5rem ;
+    
+}
+
+.bt-1:hover { 
+    border: var(--blue-white) solid 1px; 
+}
+
+
+header nav .m-i {
+    transform-origin: center;
+    height: 4rem;
+    width: 14rem;
+    margin-left: 2.5rem;
+}
+
+header nav .m-i li {
+    color:var(--cyber-pink);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+header nav ul:first-child {
+    margin-left: 0;
+}
+
+#menu-mobile {
+    display: none;
+    
+}
+
+
+/*stylle s-hero*/
+
+.s-hero {
+    background-color:rgba(255, 255, 255, 0.1);
+
+    padding: 7rem 0rem;
+
+    border: var(--green-white-cyber) solid 2px ;
+    border-left-color:var(--blue-white);
+    border-right-color:var(--blue-white) ;  
+}
+
+.s-hero .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+
+.s-hero .text {
+    width: 100%;
+    max-width: 64rem;
+    
+}
+.s-hero p {
+
+    margin-top: 2.0rem ;
+    margin-bottom: 5.6rem ;
+    max-width: 48.8rem;
+    font-size: 1.8rem;
+    line-height: 120%;
+    font-family: 'Inter' , sans-serif;
+
+ 
+    color: var(--green-white-cyber);
+}
+
+.s-hero img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid var(--green-white-cyber) 1px;
+    width: 100%;
+    max-width: 48rem;     
+    height: 32rem
+} 
+
+
+.s-hero .bt {
+    background-color: var(--cyber-pink);
+    color: var(--blue-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: right ;
+    padding: 1.7rem 3.5rem;
+    
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.bt:hover { 
+    border: var(--blue-white) solid 1px; 
+}
+
+
+/* section cards*/
+
+.card {
+    background-color: var(--blue-dark-cyber) ;
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+
+}
+
+.card #area {
+    border-bottom: solid 2px var( --green-white-cyber)  ;
+    padding-bottom: 12rem;
+}
+
+.card .title {
+    display: flex;
+    flex-direction: column;
+    
+}
+.card .title h2 {
+    margin-bottom: 8px;
+}
+.card .title p {
+    margin-bottom: 100px;
+
+}
+.card .centro {
+    align-items: center;
+}
+
+.card .all-cards {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.card .area .all-cards #p-card {
+    margin-left: 0px ;
+}
+
+.card .all-cards .cards {
+    background-color: var(--black-white);
+    width: 100%;
+    max-width: 38rem;
+    height: 38.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 2rem;
+}
+
+.card .all-cards .cards.d-c {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+.card .all-cards .cards.d-c p{
+    color: var(--cyber-pink);
+}
+
+.card .all-cards .info {
+    margin-top: 3rem;
+    max-width: 28.8rem;
+}
+.card .all-cards .cards h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card .all-cards .cards p {
+    text-align: center;
+    line-height: 125%;
+}
+
+/* area-2*/
+
+
+.area-2 .top {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 11rem;
+    align-items: center;
+}
+
+.area-2 .top a {
+    margin-bottom: 14rem;
+}
+
+.area-2 .top p {
+    max-width: 70%;
+} 
+
+.area-2 .imagem {
+    background-color: black;
+    height:11.2rem ;
+    width: 17.6rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.area-2 .all-img {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 3.2rem;
+}
+
+/* atepenu section*/
+
+.antepe {
+    width: 100%;
+    height: 35rem;
+    padding: 7rem 0rem;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+.antepe .conteiner {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.antepe .conteiner h2 {
+    margin-bottom: 2rem ;
+}
+
+.antepe .conteiner p{
+    font-size: 18px;
+    max-width: 69.4rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.antepe .conteiner a {
+    margin-top: 4rem;
+    padding: 1.75rem 4.1rem;
+}
+
+/* footer*/
+
+footer {
+    background-color: var(--blue-dark-cyber);
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+} 
+
+footer main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: solid 2px var(--green-white-cyber);
+    padding-bottom: 7.2rem;
+}
+
+footer main .footer-area-left img {
+    display: flex;
+}
+
+footer main .footer-area-left {
+    border-right: solid 2px var(--blue-white);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30rem;
+}
+
+footer main .footer-area-left p {
+    font-size: 1.8rem;
+    line-height: 130%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer main nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77rem;
+}
+
+footer main nav .navegar h4 {
+    font-family: 'sora' , sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+    color: var(--cyber-pink);
+}
+
+footer main nav .navegar ul li {
+    margin-bottom: 2rem;
+}
+.navegar ul li:last-child {
+    margin-bottom: 0px;
+}
+
+footer main nav .navegar ul li a {
+    font-family: 'sora' , sans-serif;
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--blue-white);
+}
+
+footer main nav .navegar:last-child a {
+    display: flex;
+    align-items: center;
+
+}
+
+footer main nav .navegar:last-child span {
+    margin-left: 5px;
+}
+
+footer .copy {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.1rem;
+
+}
+footer .copy .grop {
+    display: flex;
+    align-items: center;
+}
+
+footer .copy p {
+    color: white;
+}
+
+footer .copy span {
+    color: white;
+    margin-right: 0.5rem;
+}
+
+/*este codigo fo escrito por WinKSSan*/
